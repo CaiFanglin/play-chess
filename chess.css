@@ -1,0 +1,40 @@
+/* 页面样式的设置  */
+.container{
+	position: absolute;
+	width:450px;
+	height:450px;
+	background: #4db0a0;
+	margin-left: 500px;
+	margin-top: 130px;
+}
+#chess{
+	display:block;
+	box-shadow: -2px -2px 2px #EFEFEF,5px 5px 5px #B9B9B9;
+}
+.nav li .resume{
+  color: #fff;
+}
+.nav li .javascript{
+	color: #eae8a5;
+}
+.nav li .chess{
+	color: #41b0a0;
+	background: #f7fff7;
+	/*transform: scale(1.2);
+	-webkit-transform: scale(1.2);
+	-moz-transform: scale(1.2);
+	-o-transform: scale(1.2);*/
+}
+.aside{
+	float:left;
+	width:200px;
+	height:200px;
+	margin-top:130px;
+	margin-left: 230px;
+	line-height: 2;
+}
+.aside #start,.aside #end{
+	width: 95px;
+	height: auto;
+	margin-top:20px;
+}
