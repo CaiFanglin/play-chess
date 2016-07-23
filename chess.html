@@ -1,0 +1,31 @@
+/**
+*  this is a html for chess
+*/
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>play chess together</title>
+	<link rel="stylesheet" href="css/normalize.css">
+	<link rel="stylesheet" type="text/css" href="css/chess.css">
+</head>
+<body>
+	<div>
+	<div class="aside">
+		<fieldset>
+			<legend>参数设定</legend>
+			<div class="whoFirst">
+				<label for="first">先手：</label>
+				<input type="radio" id="my" checked name="bOw">用户 
+				<input type="radio" id="computer" name="bOw">计算机
+			</div>
+		</fieldset> 
+		<input type="button" value="开 始" class="start" id="start">
+		<input type="button" value="结 束" class="end" id="end">
+	</div>
+	<div class="container" id="container">
+		<canvas width="450px" height="450px" id="chess"></canvas>
+	</div>
+	<script type="text/javascript" src="js/chess.js"></script> 
+</body>
+</html>
